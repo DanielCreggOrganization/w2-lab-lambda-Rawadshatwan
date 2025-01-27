@@ -1,0 +1,10 @@
+package one;
+
+public class ToUpperCase implements StringOperation{
+
+        public String apply(String str) {
+            return str.toUpperCase();
+        }
+
+    }
+
